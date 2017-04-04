@@ -16,3 +16,10 @@ class cmx_api:
         parameters = {"macaddress":macaddr, "date":date}
         response = requests.request("GET", url, params=parameters, headers=self.headers)
         print(response.text)
+
+    def get_site_details_by_ID_or_name():
+
+        url = self.server+"/api/config/v1/sites/"
+        response = requests.request("GET", url, headers=self.headers)
+
+        print(response.text)
