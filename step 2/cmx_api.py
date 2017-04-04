@@ -23,3 +23,9 @@ class cmx_api:
         response = requests.request("GET", url, headers=self.headers)
 
         print(response.text)
+
+    def list_of_beacons_present_on_a_floor(floorrefid):
+        url = self.server+"/api/location/v1/beacon/floor/"
+        parameters = {"floorrefid":floorrefid}
+        response = requests.request("GET", url, headers=self.headers)
+        print(response.text)
