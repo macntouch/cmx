@@ -25,3 +25,4 @@ prior to running the configuration script "system_config.sh".
 
 Once run the scripts will automatically download the relevant vagrant box file,
 configure the test environment and start the VM.
+
