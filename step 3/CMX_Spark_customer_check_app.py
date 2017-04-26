@@ -74,14 +74,16 @@ def main():
     spark_obj = spark_api(spark_auth, spark_server)
 
     while(1):
+        time.sleep(120)
+
         customer_count = cmx_obj.get_client_count_per_zone(58, "absoluteVisits", "now", "today",
         "5-480", "true", "all", "deviceDwell")["value"]["previousTimeRange"]["breakdown"][0]["value"]
 
-        if customer_count >= 10:
+        print(customer_count)
+
+        if customer_count >= 5:
             message = "NOTICE: Queue gathering at check-out. Please verify and open till if needed!"
             spark_obj.post_Message(cashier_room_id, message)
-
-        time.sleep(120)
 
 if __name__ == '__main__':
     main()
