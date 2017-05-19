@@ -27,14 +27,11 @@ You will find the corresponding folders for each step.
 
 
 ### Products in this project
-* [Cisco Application Policy Infrastructure Controller Enterprise Module](http://www.cisco.com/c/en/us/products/cloud-systems-management/application-policy-infrastructure-controller-enterprise-module/index.html)
 * [Connected Mobile Experiences (CMX)](http://www.cisco.com/c/en/us/solutions/enterprise-networks/connected-mobile-experiences/index.html)
 
 
 
 ### API Documentation
-* [APIC-EM 1.3 REST API Reference](http://devnetapic.cisco.com/)
-* [Cisco DevNet: APIC Enterprise Module](https://developer.cisco.com/site/apic-em/docs/)
 * [Cisco DevNet: Networking Sandboxes](https://devnetsandbox.cisco.com/RM/Topology?c=14ec7ccf-2988-474e-a135-1e90b9bc6caf)
 * [Cisco DevNet: CMX Mobility Services](https://developer.cisco.com/site/cmx-mobility-services/docs/guides/overview/)
 * [Cisco DevNet: CMX API Reference](https://developer.cisco.com/site/cmx-mobility-services/docs/references/cmx-10.2-api-reference/)
